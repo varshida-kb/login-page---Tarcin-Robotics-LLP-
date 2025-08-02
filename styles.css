@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(finalbg.png);
+    background-size: cover;
+    
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+  
+}
+
+
+.login-section {
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 53px;
+    border: 10px solid #2E3E4B ;
+    border-radius: 70px;
+    overflow: hidden;
+   
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+
+
+#login-form{
+    
+    flex-direction: column;
+    background-color:white;
+    padding: 60px;
+    float:right;
+    width: 60%;
+    
+}
+
+
+#login-form h2 {
+    margin-bottom: 20px;
+    margin-left:130px;
+    color:rgb(22, 20, 20);
+    font-size: 2rem;
+    
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left:110px;
+    color: rgb(19, 18, 18);
+    
+    
+}
+
+#login-form input {
+    width:320px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2E3E4B;
+    border-radius: 5px;
+    margin-left:110px;
+    border:6px solid #2E3E4B;
+    
+}
+
+#login-form button {
+    width: 300px;
+    padding: 10px;
+    margin-left:110px;
+    background-color: #1E7EFF;
+    color: white;
+    border: 3px solid #2E3E4B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form p {
+    
+    
+    margin-top: 10px;
+    margin-left:190px;
+    color: #2E3E4B;
+}
+
+#login-form h4 {
+    
+   
+     margin-top:10px;
+     
+    margin-left:110px;
+    color: rgb(14, 14, 14);
+    font-size:0.9rem;
+
+}
+
+#login-form h4 a {
+    color:rgb(3, 3, 3);
+    text-decoration: underline;
+     color: rgb(4, 4, 4);
+     margin-left:40px;
+    
+}
+
